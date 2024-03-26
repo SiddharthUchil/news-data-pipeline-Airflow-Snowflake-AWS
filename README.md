@@ -3,7 +3,7 @@
 
 https://github.com/SiddharthUchil/news-data-pipeline-Airflow-Snowflake-AWS/assets/36127139/2b8f1e3b-1d8a-4ff4-a109-9a5c4d74a958
 
-
+![alt text](https://github.com/SiddharthUchil/news-data-pipeline-Airflow-Snowflake-AWS/blob/main/pipeline.jpg)
 ## Overview
 This project outlines an automated pipeline for gathering the latest news on a specified topic using the News API, transforming the data into an efficient format, and storing it for analysis. The pipeline is orchestrated using Apache Airflow and utilizes AWS services and Snowflake for storage and data warehousing.
 
