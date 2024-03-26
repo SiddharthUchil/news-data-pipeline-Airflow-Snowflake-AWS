@@ -1,4 +1,8 @@
-# End-to-End News Gathering Pipeline
+# End To End News📰 Data Pipeline with Apache Airflow Snowflake & AWS Services
+
+
+https://github.com/SiddharthUchil/news-data-pipeline-Airflow-Snowflake-AWS/assets/36127139/2b8f1e3b-1d8a-4ff4-a109-9a5c4d74a958
+
 
 ## Overview
 This project outlines an automated pipeline for gathering the latest news on a specified topic using the News API, transforming the data into an efficient format, and storing it for analysis. The pipeline is orchestrated using Apache Airflow and utilizes AWS services and Snowflake for storage and data warehousing.
@@ -17,7 +21,7 @@ The pipeline operates in four main stages:
 - **DAG**: Defines the sequence of tasks and their dependencies.
 - **PythonOperator**: Executes the Python function for data extraction.
 - **BashOperator**: Handles the transfer of files to the S3 bucket.
-
+- **SnowflakeOperator: Used to execute SQL commands in our Snowflake database
 ### AWS Services
 - **S3 Bucket**: Stores the news data in Parquet format.
 - **IAM**: Manages access permissions to AWS resources.
